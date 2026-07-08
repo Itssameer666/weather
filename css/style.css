@@ -1,0 +1,37 @@
+.custom
+{
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    margin-top: 100px;
+}
+.btn
+{
+    height: 40px;
+    width: 60px;
+    background-color: blue !important;
+    margin-top: -6px;
+    margin-left: -5px;
+    border-radius: 0px 10px 10px 0px;
+}
+.input
+{
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px 0px 0px 10px !important;
+    
+}
+.bg-custom
+{
+    background-image: url(../img/00-43-04-563_512.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+}
+@media screen and (max-width: 600px) {
+  /* Styles for tablets and larger */
+  .custom { 
+    height: 100;
+    width: 100%;
+  }
+}

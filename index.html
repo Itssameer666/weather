@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather webpage</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 bg-custom py-5">
+                
+                <div class="row">
+                    <div class="col-sm-4 bg-info mx-auto text-center mt-5 custom rounded-5 text-white gp">
+                        <h2 class="mt-1 text-light">Weather App</h2>
+                        <input type="text" placeholder="  Enter your City" class="rounded-3 input">
+                        <button class="btn bg-black" onclick="search()"><i class="fa-solid fa-magnifying-glass text-white "></i></button><br>
+                        <img src="img/claude-removebg-preview.png" alt="" height="100px" class="mt-3">
+                        
+                        <h1 class="city">City</h1>
+                        <h2 class="tepm">temperature</h2>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="ms-1">Humidity</h2>
+                                <h2 class="ms-2">pressure</h2>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
